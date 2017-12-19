@@ -1,0 +1,174 @@
+*,
+*:after,
+*:before {
+box-sizing: border-box;
+margin: 0;
+font-family: 'Oswald', sans-serif;;
+}
+
+article {
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 33.33%;
+  justify-content: center;
+  width: 33.33%;
+}
+
+body {
+  display: flex; 
+  margin: 0;
+}
+
+button {
+  display: flex;
+  display: inline-block;
+  flex-direction: row;
+}
+
+h4 {
+  font-size: 18px;
+  height: 20px;
+}
+
+html {
+  height: 100%;
+}
+
+p {
+  color: #ffffff;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.arrows{
+  background-color: transparent;
+  filter: invert(100%);
+  height: 50px; 
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+.right-arrow {
+  right: 2%;
+}
+
+.left-arrow {
+  left: 62%;
+}
+
+.buttons {
+  background-color: transparent;
+  height: 60%;
+  margin-bottom: 10%;
+  margin-right: 2%;
+  width: 20%;
+}
+
+.bowling {
+  background-color: #2d1d15;
+}
+
+.button-container {
+  display: inline-block;
+  margin-left: 5%;
+  width: 100%;
+}
+
+.button-icons {
+  float: left;
+  height: 35px;
+}
+
+.cocktails {
+  background-color: #7A5741;
+}
+
+.circles {
+  filter: invert(100%);
+  float: right;
+  height: 15px;
+  position: absolute;
+  right:2%;
+  top: 2%;
+  z-index: 1;
+}
+
+.second-circle {
+  right: 3.5%;
+}
+
+.creedence {
+  background-color: #613824;
+}
+
+.doobies {
+  background-color: #C3ACAA;
+}
+
+.dudeism {
+  background-color: #8A6C60;
+}
+
+.icon {
+  filter: invert(100%);
+  margin: 0;
+  width: 25%;
+}
+
+.intro {
+  background-color: #8A6C60;
+  display: block;
+  padding-bottom: 2%;
+  width: 66.66%;
+}
+
+.intro-text {
+  display: inline-block;
+  height: 60%;
+  margin-left: 5%;
+  margin-top: 5%;
+  width: 100%;
+}
+
+.intro-paragraph {
+  font-weight: 100;
+  margin-top: 4%;
+  width: 75%;
+}
+
+.left-side{
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 60%;
+  
+}
+
+.right-side {
+  background-size: cover;
+  width: 40%;
+}
+
+.robes {
+  background-color: #C3ACAA;
+}
+
+.rug {
+  background-color: #613824;
+}
+
+.the-dude {
+  height: 100vh;
+  width: 100%;
+}
+
+.third-circle {
+  right: 5%;
+}
+
+
+ 
